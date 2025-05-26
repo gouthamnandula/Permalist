@@ -111,10 +111,3 @@ Visit: [http://localhost:3000](http://localhost:3000)
 ## 📜 License
 
 This project is licensed under the MIT License.
-
-```
-
----
-
-Would you like me to generate the `package.json` as well or add deployment instructions (e.g., for Render, Railway, or Heroku)?
-```
