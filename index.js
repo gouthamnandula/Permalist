@@ -41,7 +41,7 @@ app.post("/add", async (req, res) => {
   const item = req.body.newItem;
   try{
     await db.query("INSERT INTO items (title) VALUES ($1)",[item]);
-    items.push({ title: item });
+    // items.push({ title: item });
     res.redirect("/");
   }
   catch(err){
